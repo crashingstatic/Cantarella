@@ -14,9 +14,9 @@ I wrote in some nice features:
   *  Does your organization use a template for user names? (i.e. first initial + last name + number)
      *  Cantarella accepts custom user lists as a `$1` command line argument for added stealth.
   *  Shuffles wordlists before account creation
-  *  Random number generator for UID and GID
-    * Normal user creation in Linux/UNIX system use the next available sequential number for GID and UID
-    * Cantarella takes the number of fake accounts and uses twice that number as an upper limit for randomly-generated UID and GID
-    * Accounts created normally after Cantarella is run actually make it more stealthy
+  *  Random number generator for UID and GID  
+     *  Normal user creation in Linux/UNIX system use the next available sequential number for GID and UID  
+     *  Cantarella takes the number of fake accounts and uses twice that number as an upper limit for randomly-generated UID and GID  
+     *  Accounts created normally after Cantarella is run actually make it more stealthy  
   
 ##### Cantarella is a force multiplying defense against any attacks on PAM-authenticated protocols.
