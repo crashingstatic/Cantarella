@@ -17,6 +17,6 @@ I wrote in some nice features:
   *  Random number generator for UID and GID  
      *  Normal user creation in Linux/UNIX system use the next available sequential number for GID and UID  
      *  Cantarella takes the number of fake accounts and uses twice that number as an upper limit for randomly-generated UID and GID  
-     *  Accounts created normally after Cantarella is run actually make it more stealthy  
+     *  Accounts created normally after Cantarella is run have UIDs that fit in between the fake accounts, making Cantarella more stealthy over time (use `pwck -s` and `grpck -s` to sort /etc/passwd and /etc/group to take advantage of this feature)
   
 ##### Cantarella is a force multiplying defense against any attacks on PAM-authenticated protocols.
