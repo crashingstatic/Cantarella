@@ -200,5 +200,5 @@ done
 
 cd "$OLDPWD"
 rm -f Cantarella.sh
-echo "Logout then log back in for the changes to take effect"
+echo "Logout then log back in for the changes to your selected sudo account to take effect"
 exit
